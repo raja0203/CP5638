@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #FFFFFF;	
+	background-color:#E64548;	
+}
+
+nav {
+	position: relative;
+	height:50px;
+	background-color:#8131AF;
+}
+nav ul li {
+	list-style:none;
+	float:left;
+	display:inline-block;
+	padding: 15px;
+}
+
+nav ul li a {
+	text-decoration: none;	
+	color: #FFFFFF;
+}
+
+nav ul hover:li,a {
+	background-color:#D8ADE8;
+}
+
+header img {
+	padding: 10px;
+}
+#content-wrapper {
+	clear:both;
+	margin-left:80px;
+	text-align:center;
+}
+#col1 {
+	background-color:grey;
+	float:left;
+	width:45%;
+	margin:10px;
+	min-height:500px;
+}
+#sub-col1 {
+	padding:10px;
+}
+
+#col2 {
+	float:left;
+	width:45%;
+	margin:5px;
+	margin-left:10px;
+	min-height:500px;
+}
+#sub-col2 {
+	background-color:black;
+	clear:both;
+	margin:5px;
+	min-height:227.5px;
+	padding:10px;
+}
+#sub-col3 {
+	background-color:black;
+	min-height:227.5px;
+	margin:5px;
+	clear:both;
+	padding:10px;
+}
+footer {
+	background-color:#CCCCCC;
+	clear:both;
+}
+#footer-col1
+{
+	background-color:#CCCCCC;
+	float: left;
+	width: 20%;
+	margin: 1em 1em 1em 2em;
+
+	}
+#footer-col2
+{
+	background-color:#CCCCCC;
+	float: left;
+	width: 20%;
+	margin: 1em 2em 0 0;
+	
+	}
+#footer-col3
+{
+	background-color:#CCCCCC;
+	float: left;
+	width: 20%;
+	margin: 1em 2em 0 0;
+	
+	}
+#copyright-wrapper p {
+	background-color:#CCCCCC;
+	clear:both;	
+	padding: .5em 0 .5em .5em;
+	background-repeat: repeat-x;
+	position: bottom;
+}
+
+footer #links-wrapper .footer-links-wrapper ul li a{
+	text-decoration:none;
+	color:black;
+}
+
+footer #links-wrapper .footer-links-wrapper ul li {
+	list-style: none;	
+}
