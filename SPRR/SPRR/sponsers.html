@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Untitled Document</title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+		<link rel="stylesheet" type="text/css" href="styles/reststyles.css"/>
+		<script>
+			function run_first(){
+				var id_var = sessionStorage.li_id;
+				id(id_var){
+					document.getElementByID(i.toString()).style.backgroundColor = "#D8ADE8";
+				}
+			}
+			function nav_li_selected (li_id){
+				for (i=0;i<8;i++){
+					document.getElementByID(i.toString()).style.backgroundColor = "";
+				}
+				document.getElementByID(i.toString()).style.backgroundColor = "#D8ADE8";
+				sessionStorage.li_id = li_id.toString();
+			}
+		</script>
+    </head>
+    
+    <body onLoad="run_first()">
+	  	  <header style="background-color:#7C524A"><img src="images/TCMCtrans10067.gif" alt="logo" /></header>
+        <nav>
+			<ul>
+            	<li><a href="index.html" id="0" onClick="nav_li_selected(0)">Home</a></li>
+                <li><a href="events.html" id="1" onClick="nav_li_selected(1)">Events</a></li>
+				<li><a href="bulletin.html" id="2" onClick="nav_li_selected(2)">bulletin board</a></li>
+                <li><a href="musos.html" id="3" onClick="nav_li_selected(3)">Musos</a></li>
+                <li><a href="members.html" id="4" onClick="nav_li_selected(4)">Members</a></li>
+                <li><a href="sponsers.html" id="5" onClick="nav_li_selected(5)">Sponsors</a></li>
+                <li><a href="aboutus.html" id="6" onClick="nav_li_selected(6)">About Us</a></li>
+                <li><a href="contactus.html" id="7" onClick="nav_li_selected(7)">Contact Us</a></li>
+            </ul>        
+        </nav>
+      
+        <div id="content-wrapper" style="color:black; background-color:#EFADA0">
+        	<h2>Sponsors</h2>
+			
+			<h5>Updated 18 July 2013</h5>
+			<div id="sponsor1" class="sponsors">
+				The Music Centre receives vital support from the sponsors featured on this page
+Our music concerts are well-publicised and well-attended and sponsors enjoy brand exposure throughout the Arts community. We welcome sponsorship or assistance in any form.
+			</div>
+			<div id="sponsor2" class="sponsors">
+				<img src="" alt="Townsville City Council">
+				<h3>Townsville City Council</h3>
+				<p>The Council's Partnerships and Sponsorships scheme provides vital core funding which enables us to maintain the administrative base for all our other activities, and also provides the premises which house our office space. 
+				The Council also assists with the performance venues for our concerts and workshops. 
+				</p>
+			</div>
+			<div id="sponsor3" class="sponsors">
+				<h3>Queensland Government</h3>
+				<p>The Gambling Community Benefit Fund has assisted us to obtain office equipment and sound and lighting equipment for our productions</p>
+			</div>
+        </div>
+        <footer>
+          <div id="links-wrapper">
+        	<section id="footer-col1" class="footer-links-wrapper">
+            	<h3>Social Links</h3>
+                <ul>
+                <li><a href="facebook.com">Facebook</a></li>
+                </ul>
+            </section>
+            <section id="footer-col2" class="footer-links-wrapper">
+            	<h3>Internal Links</h3>
+                <ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="musos.html">Musos</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="oppertunities.html">Oppertunities</a></li>
+                <li><a href="sponsers.html">Sponsors</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>    
+            </section>
+            <section id="footer-col3" class="footer-links-wrapper">
+            	<h3>External Links</h3>
+				<ul>
+					<li><a href="https://www.qld.gov.au/">Queensland Government</a></li>
+				</ul>
+            </section>
+           
+            </div>
+             <div id = "copyright-wrapper">
+        	<p>&copy;SPRR-2017</p>
+            </div>
+        </footer>
+    </body>
+</html>

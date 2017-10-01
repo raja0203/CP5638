@@ -1,0 +1,31 @@
+/* responsive.css  */
+
+@media screen and (min-width: 31.25em) {
+	nav ul li {
+	width: 33%;
+	}
+	#col1 {
+	width: 43%;
+	}
+	#col2 {
+	width: 43%;
+	}
+}
+
+
+@media screen and (max-width: 31.25em ) {
+header h1 {
+font-size: 48px;
+padding: 0;
+text-align: center;
+}
+nav ul li {width: 50%}
+#col1, #col2{
+margin: 0;
+float: none;
+width: 200%;
+}
+.musos img {
+	width:100%;
+}
+}

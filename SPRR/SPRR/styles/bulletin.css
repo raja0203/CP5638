@@ -1,0 +1,10 @@
+#content-wrapper div{
+	margin:15px;
+	padding:15px;
+	background-color: gray;
+	border-radius:10px;
+}
+
+#content-wrapper{
+	margin-top:10px;
+}

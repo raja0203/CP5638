@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/responsive.css" media="screem and (max width:960px)"/>
+		<title>Untitled Document</title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+		<script>
+			function run_first(){
+				var id_var = sessionStorage.li_id;
+				id(id_var){
+					document.getElementByID(i.toString()).style.backgroundColor = "#D8ADE8";
+				}
+			}
+			function nav_li_selected (li_id){
+				for (i=0;i<8;i++){
+					document.getElementByID(i.toString()).style.backgroundColor = "";
+				}
+				document.getElementByID(i.toString()).style.backgroundColor = "#D8ADE8";
+				sessionStorage.li_id = li_id.toString();
+			}
+		</script>
+    </head>
+    
+    <body onLoad="run_first()">
+	   <header style="background-color:#7C524A"><img src="images/TCMCtrans10067.gif" alt="logo" /></header>
+        <nav>
+			<ul>
+            	<li><a href="index.html" id="0" onClick="nav_li_selected(0)">Home</a></li>
+                <li><a href="events.html" id="1" onClick="nav_li_selected(1)">Events</a></li>
+				<li><a href="bulletin.html" id="2" onClick="nav_li_selected(2)">bulletin board</a></li>
+                <li><a href="musos.html" id="3" onClick="nav_li_selected(3)">Musos</a></li>
+                <li><a href="members.html" id="4" onClick="nav_li_selected(4)">Members</a></li>
+                <li><a href="sponsers.html" id="5" onClick="nav_li_selected(5)">Sponsors</a></li>
+                <li><a href="aboutus.html" id="6" onClick="nav_li_selected(6)">About Us</a></li>
+                <li><a href="contactus.html" id="7" onClick="nav_li_selected(7)">Contact Us</a></li>
+            </ul>        
+        </nav>
+     
+        <div id="content-wrapper">
+		<div id="col1">
+				<div id="row1-col1" class="musos">
+				 <img src="images/events/Harbourside300.jpg" width=100%; />
+				  <p>
+				  SUNDAY VARIETY CONCERT <br/>
+				  Presented by Friends of the Theatre <br/>
+				  2pm Sunday 26 April at Pimlico Performing Arts Centre <br/>
+                  Fulham Road <br/>
+			      Enquiries - please phone 4723 7879
+				  </p>
+				</div>
+				<div id="row2-col1" class="musos">
+			   <div>
+			  <img src="images/events/AvivaTheatre600.png" width=100%; />
+			  </div>
+			      <p>
+				 E seduced by Thais! <br/>
+				Or just relax and let the music wash over you.<br/>
+				2pm Sunday 17 May at C2 (Townsville Civic Theatre)<br/>
+
+				  </p>
+			  </div>
+		</div>
+		<div id="col2">
+			  <div id="row2-col2" class="musos">
+			   <div>
+			  <img src="images/events/AVIVA-GROUND300.jpg" width=100%; />
+			  </div>
+			      <p>
+				Aviva String Quartet <br/>
+				featuring <br/>
+Caroline Lloyd-Doolan on violin<br/> 
+Susan Fraser on violin<br/> 
+Jessica Winton on viola<br/> 
+Ivy Wu on cello <br/>
+<a href="https://au.patronbase.com/_TVCC/Productions/1262/Performances">Buy Tickets here..</a>
+2pm Sunday 14 June at C2 (CivicTheatre building)<br/> 
+$25 Adult - $20 Concession - Children 12 and under free!<br/>
+				  </p>
+			  </div>
+			  <div id="row2-col2" class="musos">
+			  <div></div>
+			  			  <p>
+			  #Townsville Concert Band <br/>
+2pm Sunday 28 June at C2 (Townsville Civic Theatre)<br/>
+Pimlico choir<br/>
+			  </p>
+			  <p>
+			  #Townsville Concert Band <br/>
+2pm Sunday 27 September June at C2 (Townsville Civic Theatre)
+			  </p>
+			  <p>
+			  #Voices of Pimlico <br/>
+2pm Sunday 6 September at C2 (Townsville Civic Theatre)
+			  </p>
+			  <p>
+			  #Allegro Choir <br/>
+2pm Sunday 22 November at C2 (Townsville Civic Theatre)
+			  </p>
+			   <p>
+			  #Aviva String Quartet <br/>
+
+The superb foursome return with their final concert for 2015, bringing their signature style of classical and modern music to the masses in their own fresh and entertaining style. 
+<br/>
+featuring <br/>
+Caroline Lloyd-Doolan on violin <br/>
+Susan Fraser on violin <br/>
+Jessica Winton on viola 
+Ivy Wu on cello 
+2pm Sunday 29 November at C2 (Townsville Civic Theatre)
+
+
+
+			  </p>
+			  </div>
+			  </div>
+			
+		</div>
+		
+		
+        <footer>
+         <div id="links-wrapper">
+        	<section id="footer-col1" class="footer-links-wrapper">
+            	<h3>Social Links</h3>
+                <ul>
+                <li><a href="facebook.com">Facebook</a></li>
+                </ul>
+            </section>
+            <section id="footer-col2" class="footer-links-wrapper">
+            	<h3>Internal Links</h3>
+                <ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="musos.html">Musos</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="oppertunities.html">Oppertunities</a></li>
+                <li><a href="sponsers.html">Sponsors</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>    
+            </section>
+            <section id="footer-col3" class="footer-links-wrapper">
+            	<h3>External Links</h3>
+				<ul>
+					<li><a href="https://www.qld.gov.au/">Queensland Government</a></li>
+				</ul>
+            </section>
+           
+            </div>
+             <div id = "copyright-wrapper">
+        	<p>&copy;SPRR-2017</p>
+            </div>
+        </footer>
+    </body>
+</html>
